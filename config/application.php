@@ -139,6 +139,18 @@ Config::define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 Config::define('NONCE_SALT', env('NONCE_SALT'));
 
 /**
+ * App Credentials
+ */
+Config::define('WP_APP_USER', env('WP_APP_USER'));
+Config::define('WP_APP_PASSWORD', env('WP_APP_PASSWORD'));
+Config::define('WP_MCP_BASIC_AUTH', env('WP_MCP_BASIC_AUTH'));
+
+/**
+ * Plugin Licenses
+ */
+Config::define('ACF_PRO_LICENSE', env('ACF_PRO_LICENSE'));
+
+/**
  * Custom Settings
  */
 Config::define('AUTOMATIC_UPDATER_DISABLED', true);
