@@ -34,3 +34,6 @@ phpunit.xml
 
 # WP-CLI
 wp-cli.local.yml
+
+# MCP (contains credentials)
+.mcp.json
