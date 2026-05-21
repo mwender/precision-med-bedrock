@@ -37,11 +37,16 @@
         "wp-plugin/*",
         "wp-theme/*"
       ]
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/msrbuilds/elementor-mcp"
     }
   ],
   "require": {
     "php": ">=8.3",
     "composer/installers": "^2.2",
+    "developer/elementor-mcp": "dev-main",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
     "roots/bedrock-disallow-indexing": "^2.0",

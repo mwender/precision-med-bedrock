@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd6980062f8745cd6a174dc6d8d5410b",
+    "content-hash": "b4391f91949174fd202bdd6c7048abe0",
     "packages": [
         {
             "name": "composer/installers",
@@ -151,6 +151,41 @@
                 }
             ],
             "time": "2024-06-24T20:46:46+00:00"
+        },
+        {
+            "name": "developer/elementor-mcp",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/msrbuilds/elementor-mcp.git",
+                "reference": "58a674aa5abeb4cc9a8a679bb2d751e7d09a8f4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/msrbuilds/elementor-mcp/zipball/58a674aa5abeb4cc9a8a679bb2d751e7d09a8f4d",
+                "reference": "58a674aa5abeb4cc9a8a679bb2d751e7d09a8f4d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9 || ^10"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "MCP Tools for Elementor Plugin",
+            "support": {
+                "source": "https://github.com/msrbuilds/elementor-mcp/tree/main",
+                "issues": "https://github.com/msrbuilds/elementor-mcp/issues"
+            },
+            "funding": [
+                {
+                    "type": "custom",
+                    "url": "https://wpacademy.gumroad.com/coffee"
+                }
+            ],
+            "time": "2026-05-18T03:17:28+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -5081,7 +5116,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "developer/elementor-mcp": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
