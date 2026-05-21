@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4391f91949174fd202bdd6c7048abe0",
+    "content-hash": "dc0944378712f38f63f2a6f0298d5072",
     "packages": [
         {
             "name": "composer/installers",
@@ -1259,6 +1259,37 @@
                 "source": "https://plugins.svn.wordpress.org/elementor"
             },
             "time": "2026-05-20T12:24:22+00:00"
+        },
+        {
+            "name": "wp-plugin/smtp2go",
+            "version": "1.15.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/smtp2go/",
+                "reference": "tags/1.15.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/smtp2go.1.15.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "SMTP2GO"
+                }
+            ],
+            "description": "Resolve email delivery issues, increase inbox placement, track sent email, get 24/7 support, and real-time reporting.",
+            "homepage": "https://github.com/thefold/smtp2go-wordpress-plugin",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/smtp2go/#developers",
+                "issues": "https://wordpress.org/support/plugin/smtp2go",
+                "source": "https://plugins.svn.wordpress.org/smtp2go"
+            },
+            "time": "2026-05-04T01:05:51+00:00"
         },
         {
             "name": "wp-theme/hello-elementor",
