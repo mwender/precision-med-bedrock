@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc0944378712f38f63f2a6f0298d5072",
+    "content-hash": "bd5e94c94f20b20f9a83dcbee273722a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1290,6 +1290,37 @@
                 "source": "https://plugins.svn.wordpress.org/smtp2go"
             },
             "time": "2026-05-04T01:05:51+00:00"
+        },
+        {
+            "name": "wp-plugin/spinupwp",
+            "version": "1.9.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/spinupwp/",
+                "reference": "tags/1.9.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/spinupwp.1.9.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0|~2.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Brad Touesnard"
+                }
+            ],
+            "description": "SpinupWP is a modern server control panel that's here to help you implement best practices for every server you spin up. Designed for WordPress.",
+            "homepage": "https://spinupwp.com",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/spinupwp/#developers",
+                "issues": "https://wordpress.org/support/plugin/spinupwp",
+                "source": "https://plugins.svn.wordpress.org/spinupwp"
+            },
+            "time": "2026-04-02T15:16:04+00:00"
         },
         {
             "name": "wp-theme/hello-elementor",

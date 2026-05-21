@@ -58,6 +58,7 @@
     "wordpress/mcp-adapter": "^0.5.0",
     "wp-plugin/elementor": "^4.0",
     "wp-plugin/smtp2go": "^1.15",
+    "wp-plugin/spinupwp": "^1.9",
     "wp-theme/hello-elementor": "^3.4",
     "wp-theme/twentytwentyfive": "^1.0"
   },
