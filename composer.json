@@ -71,9 +71,10 @@
     "optimize-autoloader": true,
     "preferred-install": "dist",
     "allow-plugins": {
+      "automattic/jetpack-autoloader": true,
       "composer/installers": true,
-      "roots/wordpress-core-installer": true,
-      "pestphp/pest-plugin": true
+      "pestphp/pest-plugin": true,
+      "roots/wordpress-core-installer": true
     },
     "sort-packages": true
   },
