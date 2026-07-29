@@ -55,6 +55,7 @@
     "vlucas/phpdotenv": "^5.5",
     "wenmark/advanced-custom-fields-pro": "^6.8",
     "wenmark/elementor-pro": "^4.0",
+    "wenmark/wpcodebox2": "^1.2",
     "wordpress/mcp-adapter": "^0.5.0",
     "wp-plugin/elementor": "^4.0",
     "wp-plugin/smtp2go": "^1.15",

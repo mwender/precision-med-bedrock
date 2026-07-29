@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bd5e94c94f20b20f9a83dcbee273722a",
+    "content-hash": "56f98e77d93c937b51e3a9eefdb87409",
     "packages": [
         {
             "name": "composer/installers",
@@ -1100,6 +1100,27 @@
             ],
             "description": "Elevate your designs and unlock the full power of the Atomic Editor. Gain access to dozens of Pro widgets, Website Templates, Theme Builder, Pop Ups, Forms, reusable Components, and WooCommerce building capabilities.",
             "homepage": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/"
+        },
+        {
+            "name": "wenmark/wpcodebox2",
+            "version": "1.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/wpcodebox2/1.2.1",
+                "shasum": "d8949b48ae4cf3b2a6ccf179a43e82551dfb3f40"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "WPCodeBox",
+                    "homepage": "https://wpcodebox.com"
+                }
+            ],
+            "description": "The most powerful Code Snippets Manager for WordPress.",
+            "homepage": "https://wpcodebox.com"
         },
         {
             "name": "wordpress/mcp-adapter",
