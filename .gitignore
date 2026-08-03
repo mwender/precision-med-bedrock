@@ -38,3 +38,6 @@ wp-cli.local.yml
 
 # MCP (contains credentials)
 .mcp.json
+
+# Misc
+bin/edits/2026-08-03/
