@@ -46,7 +46,6 @@
   "require": {
     "php": ">=8.3",
     "composer/installers": "^2.2",
-    "developer/elementor-mcp": "dev-main",
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
     "roots/bedrock-disallow-indexing": "^2.0",
@@ -56,7 +55,6 @@
     "wenmark/advanced-custom-fields-pro": "^6.8",
     "wenmark/elementor-pro": "^4",
     "wenmark/wpcodebox2": "^1.2",
-    "wordpress/mcp-adapter": "^0.5.0",
     "wp-plugin/elementor": "^4",
     "wp-plugin/smtp2go": "^1.15",
     "wp-plugin/spinupwp": "^1.9",
@@ -65,7 +63,9 @@
   },
   "require-dev": {
     "laravel/pint": "^1.27",
-    "pestphp/pest": "^4.0"
+    "pestphp/pest": "^4.0",
+    "developer/elementor-mcp": "dev-main",
+    "wordpress/mcp-adapter": "^0"
   },
   "config": {
     "optimize-autoloader": true,
