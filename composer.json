@@ -53,6 +53,7 @@
     "roots/wp-config": "1.0.0",
     "vlucas/phpdotenv": "^5.5",
     "wenmark/advanced-custom-fields-pro": "^6.8",
+    "wenmark/analyticswp": "^2.3",
     "wenmark/elementor-pro": "^4",
     "wenmark/wpcodebox2": "^1.2",
     "wp-plugin/elementor": "^4",
