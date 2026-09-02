@@ -42,3 +42,4 @@ wp-cli.local.yml
 # Misc
 bin/edits/2026-08-03/
 sql/
+web/app/mu-plugins/spinup-media-fallback.php
